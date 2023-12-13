@@ -1,33 +1,40 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  )
-}
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex items-center justify-between">
+        <div className="text-white font-bold">Logo</div>
 
-export default Navbar
+        {/* Navbar items */}
+        <div className="hidden md:flex space-x-4">
+          <NavItem link="#">Home</NavItem>
+          <NavItem link="#">Skills</NavItem>
+          <NavItem link="#">Work</NavItem>
+        </div>
+
+        {/* Mobile menu */}
+        <div className="md:hidden">
+          {/* Mobile menu button */}
+          <button
+            className="text-white p-2 focus:outline-none"
+            onClick={() => console.log('Toggle mobile menu')}
+          >
+            Menu
+          </button>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+const NavItem = ({ link, children }) => {
+  return (
+    <a href={link} className="text-white hover:text-gray-300">
+      {children}
+    </a>
+  );
+};
+
+export default Navbar;
