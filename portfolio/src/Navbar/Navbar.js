@@ -1,40 +1,34 @@
 import React from 'react';
-import './Navbar.css';
+import "./Navbar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="text-white font-bold">Logo</div>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid navbar-container">
+    <a class="navbar-brand">GA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+  )
+}
 
-        {/* Navbar items */}
-        <div className="hidden md:flex space-x-4">
-          <NavItem link="#">Home</NavItem>
-          <NavItem link="#">Skills</NavItem>
-          <NavItem link="#">Work</NavItem>
-        </div>
+export default Navbar
 
-        {/* Mobile menu */}
-        <div className="md:hidden">
-          {/* Mobile menu button */}
-          <button
-            className="text-white p-2 focus:outline-none"
-            onClick={() => console.log('Toggle mobile menu')}
-          >
-            Menu
-          </button>
-        </div>
-      </div>
-    </nav>
-  );
-};
-
-const NavItem = ({ link, children }) => {
-  return (
-    <a href={link} className="text-white hover:text-gray-300">
-      {children}
-    </a>
-  );
-};
-
-export default Navbar;
