@@ -4,7 +4,7 @@ import './Work.css';
 function Work() {
   return (
     <div>
-     <h2 className='text-center work-title'>Work</h2> 
+     <h2 className='work-title'>Work</h2> 
     </div>
   )
 }

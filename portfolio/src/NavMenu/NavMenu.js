@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Your Logo</div>
+      {/* <div className="logo">Your Logo</div> */}
       <div
         className={`menu-toggle ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
@@ -21,8 +21,9 @@ const Navbar = () => {
       </div>
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
         <a href="#home" className="navbar-title">Home</a>
-        <a href="#about" className="navbar-title">About</a>
-        <a href="#services" className="navbar-title">Services</a>
+        <a href="#about" className="navbar-title">Work</a>
+        <a href="#services" className="navbar-title">Skills</a>
+        {/* <a href="#services" className="navbar-title">About Me</a> */}
       </div>
     </nav>
   );

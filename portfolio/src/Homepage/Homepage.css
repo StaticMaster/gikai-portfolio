@@ -1,22 +1,37 @@
-/* .header-section{
-    padding-top:300px;
-    padding-left: 60px;
-} */
-
-/* .heading{
-    font-size:50px;
-} */
-
-body{
-    background-color: #0A009F;
+.homepage-section{
+    background-color:#f5f8fc ;
 }
 
-.pfp{
-    width:1000px ;
-    padding-right: 300px;
+.header-section {
+  display: block;
+  justify-content: center;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding-top: 100px;
 }
 
-.info-text{
-    font-size: 25px;
-    align-items: center;
+.Typewriter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.name-title {
+  color: grey;
+}
+
+.pfp {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .header-section {
+      padding-top: 50px; /* Adjust padding for smaller screens */
+  }
+
+  .Typewriter {
+      font-size: 18px; /* Adjust font size for smaller screens */
+  }
 }

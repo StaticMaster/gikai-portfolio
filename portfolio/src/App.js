@@ -2,6 +2,7 @@ import './App.css';
 import NavMenu from './NavMenu/NavMenu';
 import Homepage from './Homepage/Homepage';
 import Work from './Work/Work';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavMenu/>
       <Homepage/>
       <Work/>
+      {/* <Footer/> */}
     </div>
   );
 }

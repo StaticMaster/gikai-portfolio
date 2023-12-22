@@ -1,18 +1,27 @@
 import React from "react";
 import "./Homepage.css";
 import kai from "../images/main-pfp.jpg";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import Typewriter from 'typewriter-effect';
 
 function Homepage() {
   return (
     <div className="homepage-section">
       <div className="header-section">
-        <h3 className="text-center">Hi, I'm Gikai</h3>
-        <h2 className="text-center heading">
+        <img src={kai} alt="kai-pfp" className="pfp"></img>
+        <h2 className="name-title">Hi, I'm Gikai</h2>{" "}
+        <Typewriter
+                    options={{
+                      strings: ["Aspiring Front-End Developer", "College Student",],
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 50,
+                      delay: 500,
+                    }}
+                  />
+        {/* <h2 className="heading">
           {" "}
           I am an aspiring Front-End Developer and College Student
-        </h2>
-        {/* <img src={kai} alt="kai-pfp" className="pfp img-fluid float-end"></img> */}
+        </h2> */}
       </div>
     </div>
   );
