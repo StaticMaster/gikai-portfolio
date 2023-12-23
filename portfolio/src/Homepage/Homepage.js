@@ -18,10 +18,11 @@ function Homepage() {
                       delay: 500,
                     }}
                   />
-        {/* <h2 className="heading">
-          {" "}
-          I am an aspiring Front-End Developer and College Student
-        </h2> */}
+       <div className="download-button-section">
+        <button className="download-button">
+          Download CV
+        </button>
+       </div>
       </div>
     </div>
   );

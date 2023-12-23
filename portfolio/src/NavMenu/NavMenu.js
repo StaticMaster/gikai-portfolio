@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
         <a href="#home" className="navbar-title">Home</a>
-        <a href="#about" className="navbar-title">Work</a>
+        <a href="#about" className="navbar-title">Projects</a>
         <a href="#services" className="navbar-title">Skills</a>
         {/* <a href="#services" className="navbar-title">About Me</a> */}
       </div>

@@ -5,7 +5,7 @@
 .header-section {
   display: block;
   justify-content: center;
-  height: 80vh;
+  /* height: 80vh; */
   top: 50%;
   left: 50%;
   text-align: center;
@@ -23,6 +23,23 @@
 .pfp {
   max-width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
+  width: 300px;
+}
+
+.download-button.section{
+  padding-bottom: 20px;
+}
+.download-button{
+  background-color: rgba(207, 0, 0, 0.713);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.download-button:hover{
+  background-color: rgba(161, 0, 0, 0.713);
 }
 
 /* Media query for smaller screens */
