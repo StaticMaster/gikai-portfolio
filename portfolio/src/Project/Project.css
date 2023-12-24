@@ -1,4 +1,6 @@
-.project {
+.project-grid {
+  display: grid;
+  column-gap: 10px;
 }
 
 .project-heading {
@@ -19,7 +21,7 @@
 }
 
 .video-preview {
-  width: 600px;
+  width: 650px;
 }
 
 .buttons {

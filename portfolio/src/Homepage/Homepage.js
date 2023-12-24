@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 function Homepage() {
   return (
-    <div className="homepage-section">
+    <div className="homepage-section" id="home">
       <div className="header-section">
         <img src={kai} alt="kai-pfp" className="pfp"></img>
         <h2 className="name-title">Hi, I'm Gikai</h2>{" "}
