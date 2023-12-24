@@ -1,10 +1,46 @@
-.project-section{
+.project {
 }
 
-.project-heading{
-    font-size: 35px;
-    padding-left: 25px;
-    text-decoration-line: underline;
-    text-decoration-color: rgba(207, 0, 0, 0.713);
-    text-decoration-thickness: 5px;
+.project-heading {
+  font-size: 35px;
+  padding-left: 25px;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(207, 0, 0, 0.713);
+  text-decoration-thickness: 5px;
+}
+
+.project-section {
+  display: block;
+  padding-left: 10px;
+}
+
+.project-title {
+  font-size: 25px;
+}
+
+.video-preview {
+  width: 600px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.github-button {
+  display: flex;
+  font-size: 23px;
+  background-color: rgba(207, 0, 0, 0.713);
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  border-color: transparent;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github-button:hover {
+  background-color: rgba(161, 0, 0, 0.713);
 }

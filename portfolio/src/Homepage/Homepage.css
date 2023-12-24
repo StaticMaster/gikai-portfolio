@@ -15,6 +15,7 @@
 .Typewriter{
     font-size: 30px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .name-title {
   color: grey;
@@ -32,10 +33,12 @@
 .download-button{
   background-color: rgba(207, 0, 0, 0.713);
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 0.4s;
+  border-radius: 20px;
+  border-color: transparent;
 }
 
 .download-button:hover{
