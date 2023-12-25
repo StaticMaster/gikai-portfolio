@@ -1,5 +1,5 @@
 .project-grid {
-  display: grid;
+  display: block;
   column-gap: 10px;
 }
 
@@ -13,23 +13,30 @@
 
 .project-section {
   display: block;
-  padding-left: 10px;
+  padding-left: 25px;
+  text-align: center;
 }
 
 .project-title {
-  font-size: 25px;
+  font-size: 38px;
 }
 
 .video-preview {
-  width: 650px;
+  max-width: 100%;
+  width: 1250px;
+  height: auto;
 }
 
 .buttons {
   display: flex;
   gap: 10px;
+  text-align: center;
+  justify-content: center;
 }
 .github-button {
   display: flex;
+  justify-content: center; /* Horizontally center the button */
+  text-align: center; /* Vertically center the button */
   font-size: 23px;
   background-color: rgba(207, 0, 0, 0.713);
   cursor: pointer;
@@ -45,4 +52,24 @@ a {
 
 .github-button:hover {
   background-color: rgba(161, 0, 0, 0.713);
+}
+
+@media screen and (max-width: 768px) {
+  .project-section {
+    padding-left: 2px;
+  }
+  .project-heading {
+    font-size: 28px; /* Adjust font size for smaller screens */
+    padding-left: 7px;
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
+
+  .github-button {
+    font-size: 15px; /* Adjust font size for smaller screens */
+  }
 }

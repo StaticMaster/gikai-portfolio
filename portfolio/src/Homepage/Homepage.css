@@ -12,7 +12,7 @@
 }
 
 .Typewriter{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     padding-bottom: 10px;
 }
@@ -23,20 +23,20 @@
 .pfp {
   max-width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
-  width: 300px;
+  width: 410px;
 }
 
-.download-button.section{
+.download-button-section{
   padding-bottom: 20px;
 }
 .download-button{
   background-color: rgba(207, 0, 0, 0.713);
   color: white;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 0.4s;
-  border-radius: 20px;
+  border-radius: 8px;
   border-color: transparent;
 }
 
@@ -51,6 +51,6 @@
   }
 
   .Typewriter {
-      font-size: 18px; /* Adjust font size for smaller screens */
+      font-size: 21px; /* Adjust font size for smaller screens */
   }
 }

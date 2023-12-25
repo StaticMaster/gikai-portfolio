@@ -25,7 +25,7 @@ function Project() {
             <source src={tivid} type="video/mp4"></source>
           </video>
           <div className="buttons">
-            <a href="https://github.com/StaticMaster/LOT-web">
+            <a href="https://github.com/Course-Hero-3/MotivateMe">
               <button className="github-button">Github</button>
             </a>
             <a href="https://motivateme-v8.surge.sh/">
@@ -40,6 +40,18 @@ function Project() {
           </video>
           <a
             href="https://github.com/StaticMaster/owlsgaming-web"
+            className="github-links"
+          >
+            <button className="github-button">Github</button>
+          </a>
+        </div>
+        <div className="project-section">
+          <p className="project-title">Ridemate - Rideshare App</p>
+          <video autoPlay loop muted className="video-preview">
+            <source src={tivid} type="video/mp4"></source>
+          </video>
+          <a
+            href="https://github.com/StaticMaster/ridemate-main"
             className="github-links"
           >
             <button className="github-button">Github</button>
