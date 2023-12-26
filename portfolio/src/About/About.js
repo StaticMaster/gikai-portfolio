@@ -17,6 +17,11 @@ function About() {
           with a love for diverse experiences.
         </p>
       </div>
+      <div className="top-section">
+        <button className="top-button" id="home">
+          Back to Top 
+        </button>
+      </div>
     </div>
   );
 }

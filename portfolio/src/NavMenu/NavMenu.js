@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./NavMenu.css";
+import { FaHouse } from "react-icons/fa6";
+import { GrProjects } from "react-icons/gr";
+import { IoCodeSlashOutline } from "react-icons/io5";
+import { IoMdPerson } from "react-icons/io";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,18 +23,22 @@ const Navbar = () => {
         <div className="bar"></div>
       </div>
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
-        <a href="#home" className="navbar-title">
-          Home
-        </a>
-        <a href="#projects" className="navbar-title">
-          Projects
-        </a>
-        <a href="#skills" className="navbar-title">
-          Skills
-        </a>
-        <a href="#about" className="navbar-title">
-          About Me
-        </a>
+        <div className="navbar-title">
+          <FaHouse className="navbar-icon" />
+          <a href="#home">Home</a>
+        </div>
+        <div className="navbar-title">
+          <GrProjects className="navbar-icon" />
+          <a href="#projects">Projects</a>
+        </div>
+        <div className="navbar-title">
+          <IoCodeSlashOutline className="navbar-icon" />
+          <a href="#skills">Skills</a>
+        </div>
+        <div className="navbar-title">
+          <IoMdPerson className="navbar-icon" />
+          <a href="#about">About Me</a>
+        </div>
       </div>
     </nav>
   );

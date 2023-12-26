@@ -1,4 +1,11 @@
-.box-container{
-   position: absolute;
-    
+.footer-section{
+background-color: black;   
+height: 2vh;
+}
+
+.footer-text{
+   display: block;
+   text-align: center;
+   color: white;
+   font-size: 15px;
 }

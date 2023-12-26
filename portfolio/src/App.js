@@ -4,7 +4,7 @@ import Homepage from './Homepage/Homepage';
 import Project from './Project/Project';
 import Skills from './Skills/Skills';
 import About from './About/About';
-// import Footer from './Footer/Footer';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Project/>
       <Skills/>
       <About/>
+      <Footer/>
     </div>
   );
 }

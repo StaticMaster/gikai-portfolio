@@ -35,6 +35,12 @@
 .navbar-title{
     color: rgb(0, 0, 0);
     text-decoration-line: none;
+    font-size: 17px;
+}
+
+.navbar-icon{
+  margin-right: 1px;
+  width: 15px;
 }
 
 @media screen and (max-width: 768px) {
