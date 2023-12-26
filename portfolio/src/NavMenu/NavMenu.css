@@ -80,14 +80,9 @@
   .navbar-links a {
     padding: 15px;
     display: block;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
-
-  .navbar-links:hover{
-    text-decoration: underline;
-    text-decoration-color: red;
-  }
-
 
 }

@@ -12,12 +12,14 @@ function Project() {
           <video autoPlay loop muted className="video-preview">
             <source src={tivid} type="video/mp4"></source>
           </video>
-          <a
-            href="https://github.com/StaticMaster/LOT-web"
-            className="github-links"
-          >
-            <button className="github-button">Github</button>
-          </a>
+          <div className="buttons">
+            <a
+              href="https://github.com/StaticMaster/LOT-web"
+              className="github-links"
+            >
+              <button className="github-button">Github</button>
+            </a>
+          </div>
         </div>
         <div className="project-section">
           <p className="project-title">MotivateMe</p>
@@ -38,24 +40,28 @@ function Project() {
           <video autoPlay loop muted className="video-preview">
             <source src={tivid} type="video/mp4"></source>
           </video>
-          <a
-            href="https://github.com/StaticMaster/owlsgaming-web"
-            className="github-links"
-          >
-            <button className="github-button">Github</button>
-          </a>
+          <div className="buttons">
+            <a
+              href="https://github.com/StaticMaster/owlsgaming-web"
+              className="github-links"
+            >
+              <button className="github-button">Github</button>
+            </a>
+          </div>
         </div>
         <div className="project-section">
           <p className="project-title">Ridemate - Rideshare App</p>
           <video autoPlay loop muted className="video-preview">
             <source src={tivid} type="video/mp4"></source>
           </video>
-          <a
-            href="https://github.com/StaticMaster/ridemate-main"
-            className="github-links"
-          >
-            <button className="github-button">Github</button>
-          </a>
+          <div className="buttons">
+            <a
+              href="https://github.com/StaticMaster/ridemate-main"
+              className="github-links"
+            >
+              <button className="github-button">Github</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
