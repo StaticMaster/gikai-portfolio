@@ -1,6 +1,6 @@
-.homepage-section{
+/* .homepage-section{
     background-color:#f5f8fc ;
-}
+} */
 
 .header-section {
   display: block;
@@ -43,6 +43,12 @@
 .download-button:hover{
   background-color: rgba(161, 0, 0, 0.713);
 }
+
+
+.dark-mode .homepage-section{
+  background-color: #1a1a1a;
+}
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {

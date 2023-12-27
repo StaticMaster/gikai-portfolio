@@ -4,6 +4,7 @@
   text-decoration-line: underline;
   text-decoration-color: rgba(207, 0, 0, 0.713);
   text-decoration-thickness: 5px;
+  margin: 0;
 }
 
 .about-container{
@@ -38,6 +39,11 @@
   cursor: pointer;
 }
 
+
+.dark-mode .about-section{
+  background-color: #1a1a1a;
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
     .about-title {

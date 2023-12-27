@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -43,6 +43,15 @@
   width: 15px;
 }
 
+.dark-mode .navbar .navbar-links .navbar-links a .navbar-title{
+  background-color:#1a1a1a;
+  color: white;
+}
+
+.dark-mode a{
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: flex;
@@ -71,6 +80,19 @@
     left: 0;
     background-color: #ffffff;
 
+  }
+
+  .dark-mode .navbar-links a {
+    background-color: #1a1a1a;
+    color: white;
+  }
+
+  .dark-mode .bar{
+    background-color: white;
+  }
+
+  .dark-mode .navbar-links.open{
+    background-color: #1a1a1a;
   }
 
   .navbar-links.open {

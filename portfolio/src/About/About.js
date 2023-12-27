@@ -1,10 +1,16 @@
 import React from "react";
 import "./About.css";
 import aboutme from "../images/about-me.jpg";
+import { useDarkMode } from "../DarkModeContext";
 
 function About() {
+  const { isDarkMode } = useDarkMode();
+
   return (
-    <div className="about-section" id="about">
+    <div
+      className={`about-section ${isDarkMode ? "dark-mode" : ""}`}
+      id="about"
+    >
       <h2 className="about-title">About Me</h2>
       <div className="about-container">
         <img src={aboutme} alt="about-me-pic" className="about-me-img" />
@@ -19,7 +25,7 @@ function About() {
       </div>
       <div className="top-section">
         <button className="top-button" id="home">
-          Back to Top 
+          Back to Top
         </button>
       </div>
     </div>

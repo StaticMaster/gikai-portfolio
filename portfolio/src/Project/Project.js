@@ -1,10 +1,17 @@
 import React from "react";
 import "./Project.css";
 import tivid from "../videos/ti-website.mp4";
+import { useDarkMode } from "../DarkModeContext";
 
 function Project() {
+  const { isDarkMode } = useDarkMode();
+
   return (
-    <div id="projects">
+    <div
+      className={`project-container ${isDarkMode ? "dark-mode" : ""}`}
+      id="projects"
+    >
+      {" "}
       <h2 className="project-heading">Projects</h2>
       <div className="project-grid">
         <div className="project-section">

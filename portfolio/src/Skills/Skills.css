@@ -1,5 +1,6 @@
 .skills{
     padding-bottom: 20px;
+    margin: 0;
 }
 
 
@@ -9,6 +10,7 @@
   text-decoration-line: underline;
   text-decoration-color: rgba(207, 0, 0, 0.713);
   text-decoration-thickness: 5px;
+  margin: 0;
 }
 
 .skills-section {
@@ -19,6 +21,11 @@
 .skill-icon {
   width: 200px;
   height: 200px;
+}
+
+.dark-mode .skills{
+  background-color: #1a1a1a;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {

@@ -2,10 +2,12 @@ import React from "react";
 import "./Homepage.css";
 import kai from "../images/main-pfp.jpg";
 import Typewriter from "typewriter-effect";
-
+import { useDarkMode } from "../DarkModeContext";
 function Homepage() {
+const {isDarkMode} = useDarkMode();
+
   return (
-    <div className="homepage-section" id="home">
+    <div className={`homepage-section ${isDarkMode ? 'dark-mode' : ''}`} id="home">
       <div className="header-section">
         <img src={kai} alt="kai-pfp" className="pfp"></img>
         <h2 className="name-title">Hi, I'm Gikai</h2>{" "}
