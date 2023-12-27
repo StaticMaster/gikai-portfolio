@@ -1,9 +1,11 @@
 body {
     background-color: #ffffff;
     color: black;
+    transition-duration: 0.5s;
   }
   
   .dark-mode {
     background-color: #1a1a1a;
     color: #ffffff;
+    transition-duration: 0.5s;
   }

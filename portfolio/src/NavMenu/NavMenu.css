@@ -49,6 +49,7 @@
 }
 
 .dark-mode a{
+  transition-duration: 0.5s;
   color: white;
 }
 
@@ -79,24 +80,29 @@
     top: 60px;
     left: 0;
     background-color: #ffffff;
+    transition-duration: 0.5s;
 
   }
 
   .dark-mode .navbar-links a {
     background-color: #1a1a1a;
     color: white;
+    transition-duration: 0.5s;
   }
 
   .dark-mode .bar{
     background-color: white;
+    transition-duration: 0.5s;
   }
 
   .dark-mode .navbar-links.open{
     background-color: #1a1a1a;
+    transition-duration: 0.5s;
   }
 
   .navbar-links.open {
     display: flex;
+    transition-duration: 0.5s;
   }
 
   .navbar-links a {
@@ -105,6 +111,7 @@
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    transition-duration: 0.5s;
   }
 
 }
