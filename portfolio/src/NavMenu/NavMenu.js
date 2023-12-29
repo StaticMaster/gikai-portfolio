@@ -34,14 +34,14 @@ const Navbar = () => {
         <div className="navbar-title">
           <a href="#about">About Me</a>
         </div>
-        <input
-          type="checkbox"
-          id="darkmode-toggle"
-          checked={isDarkMode}
-          onChange={toggleDarkMode}
-        />
-        <span className="slider round"></span>
-        <label htmlFor="darkmode-toggle">Dark Mode</label>
+        <div className="dark-mode-switch">
+      <button
+        className={`dark-mode-button ${isDarkMode ? 'dark-mode' : ''}`}
+        onClick={toggleDarkMode}
+      >
+        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
+    </div>
       </div>
     </nav>
   );
