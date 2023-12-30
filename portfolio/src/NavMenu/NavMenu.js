@@ -9,10 +9,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const {isDarkMode, toggleDarkMode} = useDarkMode();
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <nav className={isDarkMode ? 'navbar dark-mode': 'navbar'}>
+    <nav className={isDarkMode ? "navbar dark-mode" : "navbar"}>
       <div
         className={`menu-toggle ${isOpen ? "open" : ""}`}
         onClick={toggleMenu}
@@ -34,8 +34,14 @@ const Navbar = () => {
         <div className="navbar-title">
           <a href="#about">About Me</a>
         </div>
-        <input type="checkbox" id="darkmode-toggle" checked={isDarkMode} onChange={toggleDarkMode}/>
-      <label htmlFor="darkmode-toggle">Dark Mode</label>
+        <div className="dark-mode-switch">
+      <button
+        className={`dark-mode-button ${isDarkMode ? 'dark-mode' : ''}`}
+        onClick={toggleDarkMode}
+      >
+        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
+    </div>
       </div>
     </nav>
   );

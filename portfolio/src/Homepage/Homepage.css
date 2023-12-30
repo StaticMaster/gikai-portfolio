@@ -1,6 +1,6 @@
-/* .homepage-section{
-    background-color:#f5f8fc ;
-} */
+.homepage-section{
+transition-duration: 0.5s;
+}
 
 .header-section {
   display: block;

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition-duration: 0.5s;
 }
 
 .logo {
@@ -32,25 +33,36 @@
   text-decoration: hidden;
   transition-duration: 0.5s;
 }
-.navbar-title{
-    color: rgb(0, 0, 0);
-    text-decoration-line: none;
-    font-size: 17px;
+.navbar-title {
+  color: rgb(0, 0, 0);
+  text-decoration-line: none;
+  font-size: 17px;
 }
 
-.navbar-icon{
+.navbar-icon {
   margin-right: 1px;
   width: 15px;
 }
 
-.dark-mode .navbar .navbar-links .navbar-links a .navbar-title{
-  background-color:#1a1a1a;
+.dark-mode .navbar .navbar-links .navbar-links a .navbar-title {
+  background-color: #1a1a1a;
   color: white;
 }
 
-.dark-mode a{
+.dark-mode a {
   transition-duration: 0.5s;
   color: white;
+}
+.dark-mode-switch{
+  padding-top: 2.3px;
+}
+.dark-mode-button{
+  display: flex;
+  border-radius: 7px;
+  border: none;
+  font-size: 17px;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +93,6 @@
     left: 0;
     background-color: #ffffff;
     transition-duration: 0.5s;
-
   }
 
   .dark-mode .navbar-links a {
@@ -90,12 +101,12 @@
     transition-duration: 0.5s;
   }
 
-  .dark-mode .bar{
+  .dark-mode .bar {
     background-color: white;
     transition-duration: 0.5s;
   }
 
-  .dark-mode .navbar-links.open{
+  .dark-mode .navbar-links.open {
     background-color: #1a1a1a;
     transition-duration: 0.5s;
   }
@@ -103,6 +114,10 @@
   .navbar-links.open {
     display: flex;
     transition-duration: 0.5s;
+  }
+  .dark-mode-switch{
+    display: block;
+    text-align: center;
   }
 
   .navbar-links a {
@@ -113,5 +128,4 @@
     text-decoration: none;
     transition-duration: 0.5s;
   }
-
 }

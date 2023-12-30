@@ -3,6 +3,7 @@ import "./About.css";
 import aboutme from "../images/about-me.jpg";
 import { useDarkMode } from "../DarkModeContext";
 
+
 function About() {
   const { isDarkMode } = useDarkMode();
 
@@ -24,9 +25,9 @@ function About() {
         </p>
       </div>
       <div className="top-section">
-        <button className="top-button" id="home">
+        {/* <button className="top-button" id="home">
           Back to Top
-        </button>
+        </button> */}
       </div>
     </div>
   );
