@@ -3,11 +3,28 @@ import "./Homepage.css";
 import kai from "../images/main-pfp.jpg";
 import Typewriter from "typewriter-effect";
 import { useDarkMode } from "../DarkModeContext";
-function Homepage() {
-const {isDarkMode} = useDarkMode();
 
+function Homepage() {
+  const { isDarkMode } = useDarkMode();
+  // const Homepage = ({ isDarkMode }) => {
+  //   const handleDownload = () => {
+  //     const documentUrl = '../images/G.A-Resume.pdf';
+  
+  //     const link = document.createElement('a');
+  //     link.href = documentUrl;
+  
+  //     link.download = 'G.A Resume';
+  
+  //     document.body.appendChild(link);
+  //     link.click();
+  
+  //     document.body.removeChild(link);
+  //   };
   return (
-    <div className={`homepage-section ${isDarkMode ? 'dark-mode' : ''}`} id="home">
+    <div
+      className={`homepage-section ${isDarkMode ? "dark-mode" : ""}`}
+      id="home"
+    >
       <div className="header-section">
         <img src={kai} alt="kai-pfp" className="pfp"></img>
         <h2 className="name-title">Hi, I'm Gikai</h2>{" "}
@@ -29,5 +46,6 @@ const {isDarkMode} = useDarkMode();
     </div>
   );
 }
+
 
 export default Homepage;

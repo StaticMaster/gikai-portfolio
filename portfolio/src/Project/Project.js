@@ -1,6 +1,9 @@
 import React from "react";
 import "./Project.css";
 import tivid from "../videos/ti-website.mp4";
+import motivateme from "../videos/motivateme.mp4";
+import owlsgaming from "../videos/owlsgamingclub.mp4";
+import ridemate from "../images/ridemate.png";
 import { useDarkMode } from "../DarkModeContext";
 
 function Project() {
@@ -31,7 +34,7 @@ function Project() {
         <div className="project-section">
           <p className="project-title">MotivateMe</p>
           <video autoPlay loop muted className="video-preview">
-            <source src={tivid} type="video/mp4"></source>
+            <source src={motivateme} type="video/mp4"></source>
           </video>
           <div className="buttons">
             <a href="https://github.com/Course-Hero-3/MotivateMe">
@@ -45,7 +48,7 @@ function Project() {
         <div className="project-section">
           <p className="project-title">Owls Gaming Club Website</p>
           <video autoPlay loop muted className="video-preview">
-            <source src={tivid} type="video/mp4"></source>
+            <source src={owlsgaming} type="video/mp4"></source>
           </video>
           <div className="buttons">
             <a
@@ -58,9 +61,14 @@ function Project() {
         </div>
         <div className="project-section">
           <p className="project-title">Ridemate - Rideshare App</p>
-          <video autoPlay loop muted className="video-preview">
-            <source src={tivid} type="video/mp4"></source>
-          </video>
+          <img
+            src={ridemate}
+            alt="ridemate-screenshot"
+            className="video-preview"
+          />
+          {/* <video autoPlay loop muted className="video-preview">
+            <source src={ridemate} type="video/mp4"></source>
+          </video> */}
           <div className="buttons">
             <a
               href="https://github.com/StaticMaster/ridemate-main"
