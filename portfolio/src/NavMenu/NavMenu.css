@@ -37,6 +37,13 @@
   color: rgb(0, 0, 0);
   text-decoration-line: none;
   font-size: 17px;
+  transition-duration: 0.5s;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: rgba(207, 0, 0, 0.713);
+  text-decoration-thickness:2.5px ;
 }
 
 .navbar-icon {
@@ -132,4 +139,5 @@
     text-decoration: none;
     transition-duration: 0.5s;
   }
+  
 }

@@ -1,9 +1,7 @@
-.project-container{
+.project-container {
   transition-duration: 0.5s;
   scroll-behavior: smooth;
 }
-
-
 
 .project-grid {
   display: block;
@@ -27,6 +25,7 @@
 
 .project-title {
   font-size: 38px;
+  font-family: 'Roboto' ;
 }
 
 .video-preview {
@@ -64,10 +63,17 @@ a {
   background-color: rgba(161, 0, 0, 0.713);
 }
 
-.dark-mode .project-container{
+.dark-mode .project-container {
   background-color: #1a1a1a;
   color: white;
 }
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../fonts/Roboto-Regular.ttf) format("woff");
+}
+
 
 @media screen and (max-width: 768px) {
   .project-section {

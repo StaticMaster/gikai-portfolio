@@ -21,11 +21,6 @@ function Footer() {
           bgColor="grey"
         />
       </div>
-      <div className="navbar-redirects">
-       <p className="redirect" id="#projects">Projects</p>
-       <p className="redirect">Skills</p>
-       <p className="redirect">About Me</p>
-      </div>
     </div>
   );
 }

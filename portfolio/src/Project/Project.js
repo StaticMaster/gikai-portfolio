@@ -66,9 +66,6 @@ function Project() {
             alt="ridemate-screenshot"
             className="video-preview"
           />
-          {/* <video autoPlay loop muted className="video-preview">
-            <source src={ridemate} type="video/mp4"></source>
-          </video> */}
           <div className="buttons">
             <a
               href="https://github.com/StaticMaster/ridemate-main"

@@ -1,3 +1,12 @@
-/* body{
-background-color: #002FFF;
-} */
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Open-Sans';
+    
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: local("Open-Sans"),
+    url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf) format("woff");
+}
