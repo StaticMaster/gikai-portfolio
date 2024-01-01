@@ -12,9 +12,13 @@ transition-duration: 0.5s;
 }
 
 .Typewriter{
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     padding-bottom: 10px;
+}
+
+.Typewriter__cursor{
+  color: rgba(207, 0, 0, 0.713);
 }
 .name-title {
   color: grey;
@@ -24,6 +28,16 @@ transition-duration: 0.5s;
   max-width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
   width: 410px;
+}
+
+.social-icon-section{
+  display: block;
+  margin: 13px 2px;
+
+}
+
+.linkedin-icon{
+  margin-left: 2px;
 }
 
 .download-button-section{

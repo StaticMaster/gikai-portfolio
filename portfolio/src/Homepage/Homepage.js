@@ -3,6 +3,7 @@ import "./Homepage.css";
 import kai from "../images/main-pfp.jpg";
 import Typewriter from "typewriter-effect";
 import { useDarkMode } from "../DarkModeContext";
+import {SocialIcon} from 'react-social-icons'
 
 function Homepage() {
   const { isDarkMode } = useDarkMode();
@@ -37,6 +38,10 @@ function Homepage() {
             delay: 500,
           }}
         />
+        <div className="social-icon-section">
+          <SocialIcon url="https://www.linkedin.com/in/gikai-andrews-8331581ab/" bgColor="grey"  className="linkedin-icon"/>
+          <SocialIcon url="https://github.com/StaticMaster" className="github-icon" bgColor="grey"/>
+        </div>
         <div className="download-button-section">
           <a href="../videos/G.A-Resume.pdf" download="G.A Resume">
             <button className="download-button">Download CV</button>

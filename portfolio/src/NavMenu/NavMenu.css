@@ -116,8 +116,12 @@
     transition-duration: 0.5s;
   }
   .dark-mode-switch{
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dark-mode-button{
+    font-size: 19px;
   }
 
   .navbar-links a {
