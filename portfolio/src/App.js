@@ -7,13 +7,16 @@ import About from "./About/About";
 import Footer from "./Footer/Footer";
 import { DarkModeProvider } from "./DarkModeContext";
 import "./global.css";
+import Background from "./Background";
 
 function App() {
-
   return (
     <div className="App">
+      {" "}
+      <Background />
       <DarkModeProvider>
         <div>
+          {" "}
           <NavMenu />
           <Homepage />
           <Project />

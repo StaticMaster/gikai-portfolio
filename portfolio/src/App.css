@@ -8,5 +8,5 @@ body{
 @font-face {
   font-family: "Open-Sans";
   src: local("Open-Sans"),
-    url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf) format("woff");
+    url(./fonts/OpenSans-VariableFont_wdth\,wght.woff) format("woff");
 }
