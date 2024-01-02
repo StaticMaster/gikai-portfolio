@@ -64,7 +64,7 @@ const Background = () => {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 4,
           straight: false,
         },
         number: {
@@ -82,6 +82,9 @@ const Background = () => {
         size: {
           value: { min: 1, max: 5 },
         },
+        zIndex: {
+          value: -1
+        }
       },
       detectRetina: true,
     }),
@@ -94,6 +97,7 @@ const Background = () => {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        style={{position:"absolute", zIndex: -1, width: "100%", height: "100%"}}
       />
     );
   }

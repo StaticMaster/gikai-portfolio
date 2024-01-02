@@ -59,6 +59,15 @@ a {
   color: black;
 }
 
+.info-text{
+  font-size: 23px;
+}
+
+.technology-text{
+  font-size: 19px;
+  font-weight: bold;
+}
+
 .github-button:hover {
   background-color: rgba(161, 0, 0, 0.713);
 }
