@@ -3,11 +3,12 @@
 }
 
 .about-title {
+  font-family: "Open Sans", sans-serif;
   font-size: 35px;
   padding-left: 25px;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline;
   text-decoration-color: rgba(207, 0, 0, 0.713);
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 5px; */
   margin: 0;
 }
 

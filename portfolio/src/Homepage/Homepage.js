@@ -5,8 +5,18 @@ import Typewriter from "typewriter-effect";
 import { useDarkMode } from "../DarkModeContext";
 import { SocialIcon } from "react-social-icons";
 
-function Homepage() {
+const Homepage = () => {
   const { isDarkMode } = useDarkMode();
+
+  const onButtonClick = () => {
+    const pdfUrl = "G.A-Resume.pdf"; // Replace with the actual PDF URL
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Gikai Andrews Resume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div
       className={`homepage-section ${isDarkMode ? "dark-mode" : ""}`}
@@ -37,9 +47,7 @@ function Homepage() {
           />
         </div>
         <div className="download-button-section">
-          <a href="/G.A-Resume.pdf"  download="G.A Resume">
-            <button className="download-button">Download CV</button>
-          </a>
+            <button className="download-button" onClick={onButtonClick}>Download CV</button>
         </div>
       </div>
     </div>
