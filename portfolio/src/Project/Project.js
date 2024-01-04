@@ -19,9 +19,11 @@ function Project() {
       <div className="project-grid">
         <div className="project-section">
           <p className="project-title">Legend of Ti Portfolio</p>
+          <div className="video-section">
           <video autoPlay loop muted className="video-preview">
             <source src={tivid} type="video/mp4"></source>
           </video>
+          </div>
           <div className="info-section">
             <p className="info-text">
               Co-founded and spearheaded the development of 'LegendOfTi,' a
@@ -46,9 +48,11 @@ function Project() {
         </div>
         <div className="project-section">
           <p className="project-title">MotivateMe</p>
+          <div className="video-section">
           <video autoPlay loop muted className="video-preview">
             <source src={motivateme} type="video/mp4"></source>
           </video>
+          </div>
           <div className="info-section">
             <p className="info-text">
               Developed a web application called MotivateMe to track a student's
@@ -72,9 +76,11 @@ function Project() {
         </div>
         <div className="project-section">
           <p className="project-title">Owls Gaming Club Website</p>
-          <video autoPlay loop muted className="video-preview">
-            <source src={owlsgaming} type="video/mp4"></source>
-          </video>
+          <div className="video-section">
+            <video autoPlay loop muted className="video-preview">
+              <source src={owlsgaming} type="video/mp4"></source>
+            </video>
+          </div>
           <div className="info-section">
             <p className="info-text">
               Designed and developed a dynamic esports team website to showcase
@@ -98,11 +104,13 @@ function Project() {
         </div>
         <div className="project-section">
           <p className="project-title">Ridemate - Rideshare App</p>
+          <div className="video-section">
           <img
             src={ridemate}
             alt="ridemate-screenshot"
             className="video-preview"
           />
+          </div>
           <div className="info-section">
             <p className="info-text">
               Co-founded 'Ridemate,' a web-based ride-sharing platform for

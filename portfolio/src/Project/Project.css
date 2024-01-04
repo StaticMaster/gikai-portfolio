@@ -22,10 +22,12 @@
 .project-section {
   display: block;
   padding-left: 25px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .project-title {
+  display: block;
+  text-align: center;
   font-size: 38px;
   /* font-family: 'Roboto' ; */
 }
@@ -34,6 +36,13 @@
   max-width: 100%;
   width: 1250px;
   height: auto;
+  /* display: block;
+  text-align: center; */
+}
+
+.video-section{
+  display: block;
+  text-align: center;
 }
 
 .buttons {
@@ -62,11 +71,11 @@ a {
 }
 
 .info-text{
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .technology-text{
-  font-size: 19px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -99,5 +108,10 @@ a {
 
   .github-button {
     font-size: 18px; 
+  }
+
+  .info-section{
+    display: block;
+    text-align: center;
   }
 }

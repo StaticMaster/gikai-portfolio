@@ -25,14 +25,14 @@ const Navbar = () => {
         <div className="navbar-title">
           <a href="#home">Home</a>
         </div>
+        <div className="navbar-title"> 
+          <a href="#about">About Me</a>
+        </div>
         <div className="navbar-title">
           <a href="#projects">Projects</a>
         </div>
         <div className="navbar-title">
-          <a href="#skills">Skills</a>
-        </div>
-        <div className="navbar-title">
-          <a href="#about">About Me</a>
+         <a href="#skills">Skills</a>
         </div>
         <div className="dark-mode-switch">
       <button

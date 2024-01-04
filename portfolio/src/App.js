@@ -19,9 +19,9 @@ function App() {
           {" "}
           <NavMenu />
           <Homepage />
+          <About />
           <Project />
           <Skills />
-          <About />
           <Footer />
         </div>
       </DarkModeProvider>
