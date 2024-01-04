@@ -32,6 +32,7 @@
   color: rgb(0, 0, 0);
   text-decoration: hidden;
   transition-duration: 0.5s;
+  scroll-behavior: smooth;
 }
 .navbar-title {
   color: rgb(0, 0, 0);
@@ -42,6 +43,7 @@
 
 a{
   transition-duration: 0.5s;
+  scroll-behavior: smooth;
 }
 
 a:hover{

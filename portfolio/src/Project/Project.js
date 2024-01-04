@@ -34,7 +34,7 @@ function Project() {
               highlighting collaborations for a personalized online presence.
             </p>
             <p className="technology-text">
-              Technologies Used: HTML, CSS, JavaScript, React, GetBootrap
+              Technologies Used: HTML, CSS, JavaScript, React, GetBootstrap
             </p>
           </div>
           <div className="buttons">
@@ -62,7 +62,7 @@ function Project() {
             </p>
             <p className="technology-text">
               Technologies Used: HTML, CSS, JavaScript, React, Chakra-UI,
-              GetBootrap, React-Icons{" "}
+              GetBootstrap, React-Icons{" "}
             </p>
           </div>
           <div className="buttons">

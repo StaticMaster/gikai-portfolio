@@ -1,6 +1,7 @@
 .project-container {
   transition-duration: 0.5s;
   scroll-behavior: smooth;
+  padding-top: 5px;
 }
 
 .project-grid {
