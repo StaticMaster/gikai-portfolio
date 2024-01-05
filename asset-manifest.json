@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gikai-portfolio/static/css/main.4e710272.css",
+    "main.js": "/gikai-portfolio/static/js/main.32d779e8.js",
+    "static/media/ti-website.mp4": "/gikai-portfolio/static/media/ti-website.ba5039a426f521ad5e73.mp4",
+    "static/media/main-pfp.jpg": "/gikai-portfolio/static/media/main-pfp.2513ea45de3580bf50dc.jpg",
+    "static/media/ridemate.png": "/gikai-portfolio/static/media/ridemate.5514a953897417236b33.png",
+    "static/media/owlsgamingclub.mp4": "/gikai-portfolio/static/media/owlsgamingclub.04c2a87b156c87b99ddc.mp4",
+    "static/media/about-me.jpg": "/gikai-portfolio/static/media/about-me.3d5dac63c23434c539ea.jpg",
+    "static/media/motivateme.mp4": "/gikai-portfolio/static/media/motivateme.0bba997dcd059f48b752.mp4",
+    "static/media/OpenSans-VariableFont_wdth,wght.woff": "/gikai-portfolio/static/media/OpenSans-VariableFont_wdth,wght.8ed086d46abbd59e9772.woff",
+    "index.html": "/gikai-portfolio/index.html",
+    "main.4e710272.css.map": "/gikai-portfolio/static/css/main.4e710272.css.map",
+    "main.32d779e8.js.map": "/gikai-portfolio/static/js/main.32d779e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e710272.css",
+    "static/js/main.32d779e8.js"
+  ]
+}
