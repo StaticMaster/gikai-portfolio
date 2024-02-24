@@ -9,7 +9,7 @@ const Homepage = () => {
   const { isDarkMode } = useDarkMode();
 
   const onButtonClick = () => {
-    const pdfUrl = "G.A-Resume.pdf"; // Replace with the actual PDF URL
+    const pdfUrl = "Gikai-Andrews-Resume.pdf"; // Replace with the actual PDF URL
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Gikai Andrews Resume.pdf"; // specify the filename
